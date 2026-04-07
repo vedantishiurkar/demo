@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common'
   templateUrl: './home-page.html',
   styleUrl: './home-page.css'
 })
-export class HomePage {
+export class HomeComponent {
  
 
 }

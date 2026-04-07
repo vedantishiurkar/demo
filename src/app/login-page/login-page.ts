@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './login-page.html',
   styleUrl: './login-page.css'
 })
-export class LoginPage {
+export class LoginComponent {
   username = '';
   password = '';
   message = '';
