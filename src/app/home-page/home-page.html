@@ -1,1 +1,10 @@
-<h1>Home page</h1>
+<div class="slider">
+  <img [src]="images[currentIndex]" class="slide-img" />
+  <div class="search-box">
+    <input type="text" placeholder="Search here..." />
+    <button>Search</button>
+  </div>
+
+  <button class="prev nav-btn" (click)="prev()">❮</button>
+  <button class="next nav-btn" (click)="next()">❯</button>
+</div>
